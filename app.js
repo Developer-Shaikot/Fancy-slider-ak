@@ -1,9 +1,9 @@
-// document.getElementById("search-field")
-// .addEventListener("keypress", function(event) {
-//      if (event.key === 'Enter') {
-//         document.getElementById("search-button").click();
-//      }
-// });
+document.getElementById("search")
+.addEventListener("keypress", function(event) {
+     if (event.key === 'Enter') {
+        document.getElementById("search-btn").click();
+     }
+});
 
 const imagesArea = document.querySelector('.images');
 const gallery = document.querySelector('.gallery');
